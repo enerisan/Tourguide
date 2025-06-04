@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tourGuide.TestPerformance" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-04T11:52:14" hostname="DESKTOP-EJ5RQLB" time="48.539">
+  <properties/>
+  <testcase name="highVolumeGetRewards" classname="tourGuide.TestPerformance" time="48.539"/>
+  <system-out><![CDATA[13:52:14.718 [Test worker] INFO tourGuide.service.TourGuideService - TestMode enabled
+13:52:14.728 [Test worker] DEBUG tourGuide.service.TourGuideService - Initializing users
+13:52:14.862 [Test worker] DEBUG tourGuide.service.TourGuideService - Created 100 internal test users.
+13:52:14.862 [Test worker] DEBUG tourGuide.service.TourGuideService - Finished initializing users
+13:52:14.871 [pool-1-thread-1] DEBUG tourGuide.tracker.Tracker - Begin Tracker. Tracking 100 users.
+highVolumeGetRewards: Time Elapsed: 48 seconds.
+13:53:03.093 [pool-1-thread-1] DEBUG tourGuide.tracker.Tracker - Tracker Time Elapsed: 48 seconds.
+13:53:03.093 [pool-1-thread-1] DEBUG tourGuide.tracker.Tracker - Tracker sleeping
+]]></system-out>
+  <system-err><![CDATA[Jun 04, 2025 1:52:14 PM org.javamoney.moneta.DefaultMonetaryContextFactory createMonetaryContextNonNullConfig
+INFO: Using custom MathContext: precision=256, roundingMode=HALF_EVEN
+]]></system-err>
+</testsuite>
